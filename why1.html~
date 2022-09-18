@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+ 
+    <title>Mehak's Portfolio</title>
+  </head>
+
+  <body>
+    <header>
+      <a href="#" class="portfolio">WHY IS A DP BENEFICIAL FOR ME? </a>
+    </header>
+
+    <div class="sec">
+      
+      <p>
+	A digital portfolio is a beneficail tool for me to create and use to showcase my skills to others. I can use this portfolio as a way to keep track of my progress and make short-term goals to fulfill later on. It serves as a reminder of my own abilities and I woud like to continue uesing it as I gain more technology related knowledge. I want to use this tool to share in my college application and future internships. I created this portfolio inorder to showcase my creations and growth as I continue to learn skills related to the field of computer sciene. This portfolio can help me track my own progress and create goals that I will fulfill later on.
+      </p>
+      <p><button onclick="document.location='index.html'">BACK</button></p>
+    </div>
+  </body>
+</html>

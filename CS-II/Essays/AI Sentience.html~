@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" type="text/css" href="../../stylesheet.css">
+    <title>AI SENTIENCE</title>
+  </head>
+  <body>
+    <header>
+      <a href="#" class="portfolio">AI Sentience</a>
+    </header>
+    
+    <div class="sec">
+      <center> <h3>Almost Human AI </h3> </center>
+      <p>
+The idea that Artificial Intelligence is becoming sentient is believed by many AI researchers, scientists, and the general public since it's introduction in the 1950s. But can AI really be sentient? All sentient beings are conscious beings, but not all conscious beings are sentient. Having consciousness is the state of being aware and awake, something not limited to the physical body. As a sentient being we are capable of experiencing pain, stress, and fear something an AI simply does not feel but may only understand. However as technology advances, There is no doubt that AI is able to simulate(mimic) sentience and this has both a beneficial and harmful impact for the future of our society.
+      </p>
+      <p>
+The advancement of AI technology provides benefits in workplace efficiency such as storing large data sets, and supplementing dangerous/repetitive jobs. About 10 years ago, AI generated language could only form random sentences using algorithms. That is no longer the case since the development of large language models like <q>GPT-3 from Open.AI are able to create screenplays, compose marketing emails, and develop video games</q> using built in self learning algorithms (p.9). Currently, Most social media platforms such as Tik Tok use built in AI that uses a variety of Computer Vision and MetaData to detect video content and compare them with user interests, hence creating The For You Page. AI technology has also become self innovative, creating quick solutions to problems that have stumped scientists for decades. For example, the AlphaFold(AI SYSTEM) by DeepMind solved the <q>protein-folding-problem</q> , made predictions for nearly 200m proteins known to exist and helped medical researchers come up with a vaccine. As an AI learns more information, it has the ability to retain and use it(making it better and better each time it is used). 
+      </p>
+      <p>
+	The main concern regarding AI development are the ethical issues they impose. Whether you are human or machine intelligence comes from learning. AI Systems usually go through a training phase and test phase where they learn to look for correct patterns and provide the correct outputs. However, a simple training is not enough to cover every problem the system will come across in real life. It is easy for these systems to be tricked in ways that humans cannot be. For example,  <q>random dot patterns can lead a machine to look for things that aren not there</q> (WEC 2016). Another concern with replacing the human workforce is inequality. since <q>individuals who have ownership in AI-Driven companies will earn more money</q>(WEF 2016). This brings in questions as to how humans will play a role in society? Will all jobs become cognitive based? And more.
+	If AI is relied for workforce efficiency, these machines must be able to perform as we planned for,and not be susceptable to outside threats and form it's own biases(like racist chatbot developments).
+	
+	</p>
+      <p>
+AI simulating sentience when used right could evolve into an opportunity to form a utopian society. However, it can prove to be detrimental in the wrong hands. Now it is all about how we want to implement the use of AI in our daily lives and what limits we will have on them. Do almost human AI’s deserve the same rights as humans? How do we avoid development mistakes?
+	</p>
+
+      <p><button onclick="document.location='../../index.html'">BACK</button></p>
+    </div>
+  </body>
+</html>

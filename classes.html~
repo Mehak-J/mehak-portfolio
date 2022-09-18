@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+ <link rel="stylesheet" type="text/css" href="stylesheet.css"> 
+
+  <title>Mehak's Portfolio</title>
+ </head>
+ 
+ <body>
+   <header>
+     <a href="#" class="portfolio">DIRECTORY OF CLASSES</a>
+   </header>
+
+   <div class="sec">
+     <h3>COMP SCI I<br> </h3>
+<button onclick="document.location='isp1.html'">ISP</button>
+<h3>DRAWINGS<br></h3>
+<button onclick="document.location='drawings.html'">Cartoon Doodles</button>
+<h3>COMP SCI II</h3>
+</div>
+<div>
+<p><button onclick="document.location='index.html'">BACK</button></p>
+  </div>
+</body>
+</html>
+      

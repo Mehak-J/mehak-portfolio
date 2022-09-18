@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title>Mehak's Portfolio</title>
+ 
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  </head>
+  
+  <body>
+    <header>
+    <a href="#" class="portfolio">Mehak's DP</a>
+    <ul>
+
+      <li><a href="why1.html"> DP Beneficiality</a></li>
+      <li><a href="classes.html">Directory</a></li>
+      <li><a href="CS-II/Essays/fingerprints.html">Fingerprints</a></li>
+      <li><a href="#">AI Sentience</a></li>
+    </ul>
+    </header>
+
+    <div class="sec">
+      <h2>ABOUT ME:</h2>
+      <p>
+	Hi there. My name is Mehak Jay, and I currently attend AHS as a junior. I took Computer Science 1 last year. I am taking Computer Science 2 this year. I became interested in programming after learning about machine learning in data science from professional data analysts. I also began participating in our high school's CS clubs for fun. Since then, I have gained some basic knowledge of Swift, Java, and HTML, but I still have a long way to go...
+	<br><br>
+	MORE OF MEHAK<br>
+	Poor baby Mehak was forced to move from place to place because of her parent's jobs. She lived in Australia for seven years and developed a mini Aussie
+	accent, then India for 3 years where she lost the Aussie accent. The rest of the time I lived in the most random places within the U.S. All jokes aside, I absolutely
+	love to travel, and doing it from a young age gave me exposure to all sorts of people.
+	
+	<br><br>
+
+	As a person, I am fun, practical, and easygoing. My favorite pass time is achieved by playing video games and hibernating in my house all day. Being indolent is unfortunate because I own a high-energy puppy, Jaggu, who has to play ALL THE TIME. For some reason, Mr.Jaggu believes four am is the best time to wake me up. That is why I officially consider myself a morning person.
+	
+	<br><br><br><br>
+
+
+      </p>
+   <br>    
+    
+<p>My portfolio lives at:<button onclick="document.location='https://github.com/Mehak-J'">GITHUB</button></p>
+      </div>
+    </body>
+
+  </html>
