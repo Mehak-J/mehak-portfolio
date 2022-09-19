@@ -3,10 +3,8 @@ import java.util.*;
 
 public class Sort {
     public static void main(String args[]) throws Exception {
-	List<String> wList = readUnsortedFileAsList();
+	String[] words = readUnsortedFileAsStringArray();
 	
-	String[] words = convertListToStringArray(wList);
-
         sort(words);
 
 	writeSortedContentToFile(words);
@@ -45,7 +43,7 @@ public class Sort {
 	return words;
     }
     
-    private static List<String> readUnsortedFileAsList() throws Exception {
+    private static String[] readUnsortedFileAsStringArray() throws Exception {
 	File file = new File("unsorted.txt");
 	BufferedReader reader  = new BufferedReader(new FileReader(file));
 
@@ -54,7 +52,8 @@ public class Sort {
 	while ((word = reader.readLine()) != null) {
 	   wList.add(word);
 	}
-	return wList;
+
+        return convertListToStringArray(wList);
     }
     
     private static void sort(String[] words) {
