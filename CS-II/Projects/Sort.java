@@ -7,9 +7,7 @@ public class Sort {
 	
         sort(words);
 
-	writeSortedContentToFile(words);
-
-	printFromSortedWords(words);
+	writeSortedContentToFileAndPrint(words);
 
 	deleteSortedFile();
     }
@@ -19,16 +17,11 @@ public class Sort {
 	file.delete(); 
     }
     
-    private static void printFromSortedWords(String[] words) throws Exception {
-	for(int i=0; i < words.length; i++)  {
-	    System.out.println(words[i]);
-	}
-    }
-
-    private static void writeSortedContentToFile(String[] words) throws Exception {
+    private static void writeSortedContentToFileAndPrint(String[] words) throws Exception {
 	BufferedWriter writer = new BufferedWriter(new FileWriter("sorted.txt"));
 	for(int i=0; i < words.length; i++) {
-	    writer.write(words[i] + "\n");  
+	    writer.write(words[i] + "\n");
+	    System.out.println(words[i]);
 	}
 	writer.close();
     }
