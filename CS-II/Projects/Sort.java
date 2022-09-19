@@ -7,23 +7,13 @@ public class Sort {
 	
         sort(words);
 
-	writeSortedContentToFileAndPrint(words);
-
-	deleteSortedFile();
-    }
-
-    private static void deleteSortedFile() throws Exception {
-	File file = new File("sorted.txt");
-	file.delete(); 
+	print(words);
     }
     
-    private static void writeSortedContentToFileAndPrint(String[] words) throws Exception {
-	BufferedWriter writer = new BufferedWriter(new FileWriter("sorted.txt"));
+    private static void print(String[] words) {
 	for(int i=0; i < words.length; i++) {
-	    writer.write(words[i] + "\n");
 	    System.out.println(words[i]);
 	}
-	writer.close();
     }
 
     private static String[] convertListToStringArray(List<String> wList) throws Exception {
